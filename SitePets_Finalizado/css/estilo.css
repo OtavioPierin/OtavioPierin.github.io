@@ -1,0 +1,69 @@
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgb(73, 35, 2) 0%, rgb(121, 73, 9) 0%, rgb(255, 187, 0)100%);
+}
+
+#logo{
+    width: 200px;
+    height: 200px;
+}
+
+.titulo{
+    margin: auto;
+    font-family: 'Lobster', Impallari Type, Cyreal;
+    font-size: 3rem;
+    color: #be550e;
+    font-weight: bold;
+}
+
+header{
+    background-color: #e09582;
+    background-image: linear-gradient(315deg, #ec8e62 0%, #f8cda4 74%);
+}
+
+.bg-AzulEscuro{
+    background-color: #046;
+}
+
+.bg-Cinzaclaro{
+    background-color: rgb(189, 117, 75);
+}
+.colunas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .colunas .input-group {
+    width: 48%;
+  }
+  .bg-laranja{
+      background-color: rgb(236, 186, 163);
+  }
+  .bg-navbar{
+      background-color: rgb(70, 19, 3);
+  }
+  .bg-fundo-ambiente{
+    background-color: #ec8e62;
+  }
+  .bg-fundo-locais{
+    background-color: #d1987d;
+  }
+  .card{
+    background-color: rgb(236, 144, 90);
+  }
+
+  .informacoes{
+    text-align: center;
+    font-weight: bold;
+    color: #6c2c01;
+  }
+  .card-text{
+    text-align: justify;
+  }
+  .locais{
+    text-align: justify;
+  }
+  .ambiente{
+    text-align: justify;
+  }
