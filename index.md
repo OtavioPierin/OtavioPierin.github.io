@@ -18,7 +18,7 @@
 <body>
     <!-- Cabeçalho -->
     <header class="p-3 bg-laranja text-white d-flex">
-        <img src="img/logo.png" id="logo" alt="Logo Hotel">
+        <img src="SitePets_finalizado/img/logo.png" id="logo" alt="Logo Hotel">
 
         <h3 class="titulo">Hotel e creche para pets!</h3>
     </header>
