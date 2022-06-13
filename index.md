@@ -8,8 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- Meu css-->
-    <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" href="css/galeria.css">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="galeria.css">
 
 
     <title>Hotel Pet</title>
@@ -18,7 +18,7 @@
 <body>
     <!-- Cabeçalho -->
     <header class="p-3 bg-laranja text-white d-flex">
-        <img src="SitePets_finalizado/img/logo.png" id="logo" alt="Logo Hotel">
+        <img src="logo.png" id="logo" alt="Logo Hotel">
 
         <h3 class="titulo">Hotel e creche para pets!</h3>
     </header>
@@ -34,7 +34,7 @@
             <div class="collapsed navbar-collapse" id="menu1">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" href="home.html">Home</a>
+                        <a class="nav-link active" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="galeria.html">Galeria</a>
@@ -88,43 +88,43 @@
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="img/local1.jpg" class="d-block w-100" alt="1">
+                                <img src="local1.jpg" class="d-block w-100" alt="1">
                                 <div class="carousel-caption d-none d-md-block">
 
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="img/local2.jpg" class="d-block w-100" alt="2">
+                                <img src="local2.jpg" class="d-block w-100" alt="2">
                                 <div class="carousel-caption d-none d-md-block">
 
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="img/gatos dormindo.jpg" class="d-block w-100" alt="3">
+                                <img src="gatos dormindo.jpg" class="d-block w-100" alt="3">
                                 <div class="carousel-caption d-none d-md-block">
 
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="img/gato-brincando-feliz.jpg" class="d-block w-100" alt="4">
+                                <img src="gato-brincando-feliz.jpg" class="d-block w-100" alt="4">
                                 <div class="carousel-caption d-none d-md-block">
 
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="img/gato na casinha.jpg" class="d-block w-100" alt="5">
+                                <img src="gato na casinha.jpg" class="d-block w-100" alt="5">
                                 <div class="carousel-caption d-none d-md-block">
 
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="img/parque cachorro.jpg" class="d-block w-100" alt="6">
+                                <img src="parque cachorro.jpg" class="d-block w-100" alt="6">
                                 <div class="carousel-caption d-none d-md-block">
 
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="img/local brincar.png" class="d-block w-100" alt="7">
+                                <img src="local brincar.png" class="d-block w-100" alt="7">
                                 <div class="carousel-caption d-none d-md-block">
 
                                 </div>
@@ -183,25 +183,25 @@
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="img/local pets 3.jpg" class="d-block w-100" alt="1">
+                                <img src="local pets 3.jpg" class="d-block w-100" alt="1">
                                 <div class="carousel-caption d-none d-md-block">
 
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="img/img-creche.jpg" class="d-block w-100" alt="2">
+                                <img src="img-creche.jpg" class="d-block w-100" alt="2">
                                 <div class="carousel-caption d-none d-md-block">
 
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="img/local2.jpg" class="d-block w-100" alt="3">
+                                <img src="local2.jpg" class="d-block w-100" alt="3">
                                 <div class="carousel-caption d-none d-md-block">
 
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="img/cão-bolinha.jpg" class="d-block w-100" alt="4">
+                                <img src="cão-bolinha.jpg" class="d-block w-100" alt="4">
                                 <div class="carousel-caption d-none d-md-block">
 
                                 </div>
@@ -221,60 +221,11 @@
                 </div>
                 
                
-                <!--<div class="card-group bg-fundo-home row">
-                    <div class="card">
-                        <img src="img/hotel.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">HOTEL</h5>
-                            <p class="card-text">
-                                A diária é de 24 horas, onde seu amigo desenvolve diversas atividades como
-                                brincadeiras, socialização e cuidados. Ao final do dia são recolhidos
-                                para uma área diferente, protegidos do sereno e preparados para dormir. 
-                            </p>
-                            <p class="card-text"><small class="text-muted"></small></p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="img/creche.jpg" vspace="5" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">CRECHE</h5>
-                            <p class="card-text">A nossa creche tem permanência de até 12 horas, sendo das 7hs às 19hs.
-                                Temos um rigor bem específico com nossos usuários para evitar algumas intercorrências
-                                que são esperadas em nossos pets.
-
-                                Nossa área tem espaço protegido para filhotes em fase de vacinação com cuidados
-                                específicos para a idade e auxílio no treinamento para uso de tapete higiênico
-                            </p>
-
-                            <p class="card-text"><small class="text-muted"></small></p>
-                        </div>
-
-                    </div>
-
-                    <div class="card">
-                        <img src="img/banner-banho-e-tosa.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">BANHO E TOSA</h5>
-                            <p class="card-text">
-                                Os banhos são feitos com o uso de xampus neutro indicados para todos os tipos de pelo e
-                                pele inclusive as mais sensíveis. No caso de banhos terapêuticos, basta trazerem os
-                                produtos receitados pelo veterinário que realizaremos os procedimentos sem custo
-                                adicional.
-                            </p>
-                            Segunda a sexta: 8:00 às 18:00
-                            Sábados: 8:00 às 12:00
-                            </p>
-                            <p class="card-text"><small class="text-muted"></small></p>
-                        </div>
-                    </div>
-
-                </div> -->
-
             </div>
              <!--Coluna Direita-->
              <div class=" informacoes col-sm-5">
                 <ul class="nav nav-pills flex-column mt-3">
-                    <img src="img/endereco.jpg" alt="endereco">
+                    <img src="endereco.jpg" alt="endereco">
                 </ul>
                 <h2 class="mt-4"><i>Mapa</i></h2>
                 <ul class="nav nav-pills flex-column mt-3">
@@ -284,7 +235,7 @@
                     width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <ul class="nav nav-pills flex-column mt-2">
-                    <img src="img/horario.png" alt="horario">
+                    <img src="horario.png" alt="horario">
             </div>
         </div>
             <div class="container mt-5" id="participantes">
@@ -292,7 +243,7 @@
                 <div class="row row-cols-1 row-cols-lg-4 ">
                   <div class="col">
                     <div class="card participantes">
-                        <img src="img/hotel.jpg" class="card-img-top" alt="...">
+                        <img src="hotel.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">HOTEL </h5>
                         <p class="card-text">
@@ -305,7 +256,7 @@
                   </div>
                   <div class="col">
                     <div class="card participantes">
-                        <img src="img/creche2.jpg" vspace="5" class="card-img-top" alt="...">
+                        <img src="creche2.jpg" vspace="5" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">CRECHE</h5>
                         <p class="card-text">A nossa creche tem permanência de até 12 horas, sendo das 7hs às 19hs.
@@ -317,7 +268,7 @@
                   </div>
                   <div class="col">
                     <div class="card participantes">
-                        <img src="img/banner-banho-e-tosa.png" class="card-img-top" alt="...">
+                        <img src="banner-banho-e-tosa.png" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">BANHO E TOSA</h5>
                         <p class="card-text">
@@ -341,12 +292,12 @@
         <!-- Footer -->
         <footer class="mt-5 p-4 bg-navbar text-white text-center">
             <p>AUQMIAEPIA - Hotel e Creche para Pets-&nbsp;|&nbsp;
-                <a href="https://www.facebook.com/auqmiaepia/"><img src="img/facebook-icon.png" alt="" width="50px"
+                <a href="https://www.facebook.com/auqmiaepia/"><img src="facebook-icon.png" alt="" width="50px"
                         height="40px"></a>&nbsp;|&nbsp;<a href="https://www.instagram.com/auqmiaepia/"><img
-                        src="img/instagram.png" alt="" width="50px" height="40px"></a>
+                        src="instagram.png" alt="" width="50px" height="40px"></a>
                 <!-- Link para o whats -->
                 &nbsp;|&nbsp;<a href="https://api.whatsapp.com/send?phone=551147298902&text=Mande%20uma%20mensagem"><img
-                        src="img/logowhatts.png" alt="" width="50px" height="40px"></a>
+                        src="logowhatts.png" alt="" width="50px" height="40px"></a>
             </p>
         </footer>
     </body>
